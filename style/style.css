@@ -1,0 +1,62 @@
+.hero {
+    position: relative;
+    width: 100%;
+    white-space: 800px;
+    height: 100vh;
+}
+
+.detel {
+    margin: 8%;
+    margin-top: 15px;
+    position: relative;
+    padding: 12px;
+    background-color: black;
+    height: 80%;
+    border-radius: 18px;
+}
+
+.detel h1 {
+    margin-top: 8%;
+    margin-left: 18px;
+    font-size: 60px;
+    color: rgb(218, 226, 231);
+    margin-bottom: 20px;
+
+}
+
+.detel p {
+    margin-top: 6%;
+    color: aliceblue;
+    line-height: 22px;
+    margin-left: 18px;
+}
+
+.detel a {
+    margin-left: 20px;
+    margin-top: 6%;
+    background: orange;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.imaes img {
+    float: left;
+    height: 95px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: trnslsatex(-50);
+}
+
+.boy {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 100px;
+}
