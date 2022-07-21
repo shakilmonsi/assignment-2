@@ -1,62 +1,388 @@
-.hero {
-    position: relative;
-    width: 100%;
-    white-space: 800px;
-    height: 100vh;
-}
+ /* 1 imag ar jonn0 */
 
-.detel {
-    margin: 8%;
-    margin-top: 15px;
-    position: relative;
+ .hero {
+     position: relative;
+     width: 100%;
+     /* border: 2px solid blue; */
+     width-spece: 800px;
+     border-radius: 10px;
+     padding: 15px;
+     height: 100vh;
+ }
+
+ /* 2 lekar jonno */
+ .detel {
+     margin: 8%;
+     margin-top: 15px;
+     position: relative;
+     padding: 12px;
+     background-color: black;
+     height: 80%;
+     border-radius: 18px;
+ }
+
+ .detel h1 {
+     margin-top: 8%;
+     margin-left: 18px;
+     font-size: 60px;
+     color: rgb(218, 226, 231);
+     margin-bottom: 20px;
+
+ }
+
+ .detel p {
+     margin-top: 6%;
+     color: aliceblue;
+     line-height: 22px;
+     margin-left: 18px;
+ }
+
+ .detel a {
+     margin-left: 20px;
+     margin-top: 6%;
+     background: orange;
+     padding: 10px 18px;
+     text-decoration: none;
+     font-weight: bold;
+     color: aquamarine;
+     display: inline-block;
+     margin: 30px 0;
+     border-radius: 5px;
+ }
+
+ .imaes img {
+     float: left;
+     height: 95px;
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     transform: trnslsatex(-50);
+ }
+
+ .boy {
+     height: 100%;
+     position: absolute;
+     right: 0;
+     top: 0;
+     margin-right: 100px;
+ }
+
+
+
+
+ .btn {
+
+     /* margin-right: 100%; */
+
+     background-color: black;
+     width: 200px;
+     height: 250px;
+     margin-left: -50px;
+     border-radius: 10%;
+
+
+ }
+
+ .a {
+
+
+     font-size: 18px;
+     height: 40px;
+     width: 180px;
+     margin: 8%;
+     border-radius: 12%;
+ }
+
+ .b {
+
+     font-size: 18px;
+     height: 40px;
+     width: 80%;
+     margin: 8%;
+     border-radius: 16%;
+ }
+
+ .c {
+
+
+     font-size: 18px;
+     color: white;
+     background-color: orangered;
+     margin: 8%;
+     height: 100%;
+     width: 80%;
+     border-radius: 16%;
+ }
+
+
+
+
+
+
+
+
+
+ .container {
+     margin-left: 5%;
+     padding-top: 2%;
+     gap: 20px;
+ }
+
+ .blog-author a {
+
+
+     text-decoration: none;
+     font-size: 16px;
+     font-size: 16px;
+     color: #562EFF;
+
+ }
+
+
+ /*
+....... courses-style */
+ .courses {
+
+
+     margin-left: 15%;
+
+     justify-content: center;
+     /* niche namanor jonno */
+     margin-top: -250px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 2px;
+ }
+
+ .course {
+     margin-bottom: 30px;
+     border: 1px solid blanchedalmond;
+ }
+
+ .course .course-banner img {
+
+
+     width: 300px;
+     height: 240px;
+     justify-content: center;
+
+
+ }
+
+ .course-info {
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+
+ .fa-solid {
+     margin-left: 30px;
+
+
+
+ }
+
+
+ /* tai corchilam */
+
+ /* ..........
+Maddya queries
+............ */
+ /* Movile */
+ /* @media only screen and (max-width:688px) {
+    .container {
+        width: 100px;
+    } */
+ /* 4
+ .players,
+ .blogs,
+ .courses {
+     grid-template-columns: repeat(3, 1fr); */
+ /* background-color: #FFC014; */
+
+ / 2
+ /* 
+ .players,
+ .course {
+     grid-template-columns: repeat(2, 1fr); */
+ }
+
+ /* .button {
+    border: 1px solid black;
     padding: 12px;
-    background-color: black;
-    height: 80%;
-    border-radius: 18px;
-}
+} */
 
-.detel h1 {
-    margin-top: 8%;
-    margin-left: 18px;
-    font-size: 60px;
-    color: rgb(218, 226, 231);
-    margin-bottom: 20px;
+ /* 
+    .blogs, */
+ /* .courses {
+        display: none;
+    } */
+ /* 
+tabler devices */
+ /* 1
 
-}
+ @media only screen and (min-width:688px)and(max-width:992px) {
 
-.detel p {
-    margin-top: 6%;
-    color: aliceblue;
-    line-height: 22px;
-    margin-left: 18px;
-}
+     .blogs {
+         /* background-color: aqua; */
+ grid-template-columns: repeat(2, 1fr);
 
-.detel a {
-    margin-left: 20px;
-    margin-top: 6%;
-    background: orange;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: aquamarine;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-}
 
-.imaes img {
-    float: left;
-    height: 95px;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: trnslsatex(-50);
-}
+ */ .mama {
+     font-weight: 390;
+     font-size: 15px;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+     padding: 12px 12px;
+     gap: 10px;
+     width: 100px;
+     height: 47px;
+     margin-left: 400px;
+     top: 1944.21px;
+     background-color: coral;
+     border-radius: 6px;
+ }
 
-.boy {
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-right: 100px;
-}
+ .baba {
+
+     padding: 12px 29px;
+     text-align: center;
+     font-size: 50px;
+     width: 1550px;
+     height: 300px;
+     left: 0px;
+     top: opx;
+
+
+     background-color: black;
+
+     background-size: 20px 100px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #562EFF;
+ }
+
+ /* tai corchilam */
+ /* .koka {
+    font-size: 20px;
+    color: beige;
+
+} */
+ .ma {
+
+     position: absolute;
+     left: 21.94;
+     right: ;
+
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 24px;
+     color: azure;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 322px;
+ }
+
+ .ma li {
+     width: 120px;
+     list-style: none;
+ }
+
+ .abbu li {
+     margin-inline-end: auto;
+     display: inline-block;
+     font-size: 15px;
+     margin-top: -10px;
+ }
+
+ /* ..mabaul  */
+ @media only screen(max-width:688px) {
+     .container {
+         grid-template-columns: repeat(1, 1fr);
+         flex-direction: colum;
+         width: 100%;
+
+
+     }
+
+     .hero {
+
+         width: 100%;
+     }
+
+     .baba {
+         flex-direction: colum;
+     }
+
+
+     .detel {
+         flex-direction: colum;
+     }
+
+ }
+
+
+ }
+
+
+ /* table */
+ @media only screen and (min-width:688px) and(max-width:992) {
+
+     .container {
+         width: 100%;
+         grid-template-columns: repeat(2, 1fr)
+     }
+
+     .detel {
+         flex-direction: colum;
+     }
+
+     .hero {
+
+         width: 100%;
+     }
+
+     .baba {
+         flex-direction: colum;
+     }
+
+     .detel {
+         width: 100px;
+     }
+
+     mama {
+         width: 100%;
+     }
+ }
+
+ /* leptop */
+
+ @media screen(max-width:1312px) {
+
+     .container {
+         width: 100%;
+         grid-template-columns: repeat(3, 1fr)
+     }
+
+     .hero {
+
+         width: 100%;
+     }
+
+     .baba {
+         flex-direction: ;
+     }
+
+     .detel {
+         width: 100px;
+     }
+
+     mama {
+         width: 100%;
+     }
+
+ }
