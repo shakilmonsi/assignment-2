@@ -48,6 +48,12 @@
      display: inline-block;
      margin: 30px 0;
      border-radius: 5px;
+     transition: transform 0.5s, background 0.5s;
+ }
+
+ .motion:hover {
+     transform: scale(1.1);
+     background: red;
  }
 
  .imaes img {
@@ -75,7 +81,7 @@
      /* margin-right: 100%; */
 
      background-color: black;
-     width: 200px;
+     width: 400px;
      height: 250px;
      margin-left: -50px;
      border-radius: 10%;
@@ -85,12 +91,16 @@
 
  .a {
 
-
      font-size: 18px;
-     height: 40px;
-     width: 180px;
+     color: white;
+     background-color: orangered;
      margin: 8%;
-     border-radius: 12%;
+     height: 100%;
+     width: 80%;
+     border-radius: 16%;
+
+
+
  }
 
  .b {
@@ -102,18 +112,52 @@
      border-radius: 16%;
  }
 
+
  .c {
-
-
      font-size: 18px;
-     color: white;
-     background-color: orangered;
+     color: #000;
      margin: 8%;
      height: 100%;
      width: 80%;
      border-radius: 16%;
+     width: 180px;
+
  }
 
+ .mt {
+     display: flex;
+ }
+
+ .eatch-timing {
+
+     display: grid;
+
+     grid-template-columns: 25% 25% 25%;
+     grid-gap: 22px;
+ }
+
+ .match-summary {
+
+     margin: 5px 100px;
+
+
+     width: 300px;
+
+     padding: 20px;
+
+     border-radius: 10px;
+
+     box-shadow: 2px 2px 10px darkgray;
+
+     text-align: center;
+ }
+
+ .country-ing {
+
+     display: flex;
+
+     gap: 10px 30px;
+ }
 
 
 
@@ -128,13 +172,14 @@
      gap: 20px;
  }
 
+ /* 
  .blog-author a {
 
 
      text-decoration: none;
      font-size: 16px;
      font-size: 16px;
-     color: #562EFF;
+     color: #562EFF; */
 
  }
 
@@ -144,18 +189,18 @@
  .courses {
 
 
-     margin-left: 15%;
+     /* margin-left: 15%;
 
      justify-content: center;
      /* niche namanor jonno */
-     margin-top: -250px;
+     /* margin-top: -250px;
      width: 100%;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 2px;
- }
+ }  */
 
- .course {
+     /* .course {
      margin-bottom: 30px;
      border: 1px solid blanchedalmond;
  }
@@ -168,43 +213,43 @@
      justify-content: center;
 
 
- }
+ } */
+     /* floter kaj  */
+     .course-info {
 
- .course-info {
-
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
- }
-
-
- .fa-solid {
-     margin-left: 30px;
+         / display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
 
 
+     .fa-solid {
+         margin-left: 30px;
 
- }
 
 
- /* tai corchilam */
+     }
 
- /* ..........
+
+     /* tai corchilam */
+
+     /* ..........
 Maddya queries
 ............ */
- /* Movile */
- /* @media only screen and (max-width:688px) {
+     /* Movile */
+     /* @media only screen and (max-width:688px) {
     .container {
         width: 100px;
     } */
- /* 4
+     /* 4
  .players,
  .blogs,
  .courses {
      grid-template-columns: repeat(3, 1fr); */
- /* background-color: #FFC014; */
+     /* background-color: #FFC014; */
 
- / 2
- /* 
+     / 2
+     /* 
  .players,
  .course {
      grid-template-columns: repeat(2, 1fr); */
@@ -228,7 +273,7 @@ tabler devices */
 
      .blogs {
          /* background-color: aqua; */
- grid-template-columns: repeat(2, 1fr);
+ /* grid-template-columns: repeat(2, 1fr); */
 
 
  */ .mama {
@@ -301,7 +346,7 @@ tabler devices */
 
  /* ..mabaul  */
  @media only screen(max-width:688px) {
-     .container {
+     .eatch-timing {
          grid-template-columns: repeat(1, 1fr);
          flex-direction: colum;
          width: 100%;
@@ -332,7 +377,7 @@ tabler devices */
  /* table */
  @media only screen and (min-width:688px) and(max-width:992) {
 
-     .container {
+     .eatch-timing {
          width: 100%;
          grid-template-columns: repeat(2, 1fr)
      }
@@ -357,13 +402,17 @@ tabler devices */
      mama {
          width: 100%;
      }
+
+     .btn {
+         flex-direction: row;
+     }
  }
 
  /* leptop */
 
  @media screen(max-width:1312px) {
 
-     .container {
+     .eatch-timing {
          width: 100%;
          grid-template-columns: repeat(3, 1fr)
      }
